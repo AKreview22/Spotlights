@@ -1,0 +1,24 @@
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--neutral-lightest);
+
+}
+
+.avatarContainer {
+  margin-bottom: 15px;
+}
+
+.listingContainer {
+  margin-bottom: 15px;
+}
+
+.interactionsContainer {
+  margin-top: auto;
+  padding-top: 15px;
+  border-top: 1px solid var(--neutral-light);
+}

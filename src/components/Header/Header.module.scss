@@ -1,0 +1,51 @@
+
+
+.header {
+  padding: 3rem;
+  background-color: var(--neutral-darker);
+  text-align: center;
+  margin: 15px 10px 20px 10px;
+  border-radius: 20px;
+  user-select: none;
+
+  .headerContent {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    h1 {
+      color: var(--neutral-lighter);
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      color: var(--neutral-light);
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+      max-width: 600px; 
+      margin: 0 auto; 
+
+      .highlight {
+        color: var(--primary-color);
+        font-weight: bold;
+      }
+    }
+
+    .exploreButton {
+      background-color: var(--primary-color);
+      color: var(--neutral-lightest);
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: background-color 0.3s;
+      margin-top: 20px;
+      border-radius: 25px;
+
+      &:hover {
+        background-color: var(--primary-darkened);
+      }
+    }
+  }
+}

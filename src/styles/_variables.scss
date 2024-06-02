@@ -1,0 +1,42 @@
+// _variables.scss
+
+// Light Theme Variables
+.light-theme {
+  // Primary Colors
+  --primary-color: #dd6600;
+  --primary-light: #ff8833;
+  --primary-dark: #bb5500;
+  --primary-darkened: #cc5500;
+
+
+  // Neutral Colors
+  --neutral-lighter-than-lightest: #eef5fa;
+  --neutral-lightest: #f0faff;
+  --neutral-lighter: #f0f6f6;
+  --neutral-light: #ccd1d1;
+  --neutral-dark: #5b5b79;
+  --neutral-darker: #252539;
+  --neutral-darkest: #0d0d0d;
+}
+
+// Dark Theme Variables
+.dark-theme {
+
+  // Primary Colors
+  --primary-color: #ffaa00;
+  --primary-light: #ffbb33;
+  --primary-dark: #cc8800;
+  --primary-darkened: #e69900;
+
+
+  // Neutral Colors with Subtle Blue Hint
+  --neutral-lighter-than-lightest: #141425;
+  --neutral-lightest: #1a1a2e; 
+  --neutral-lighter: #2e2e4a;
+  --neutral-light: #5a5a7a; 
+  --neutral-dark: #b0b0cc; 
+  --neutral-darker: #d0d0e6; 
+  --neutral-darkest: #ffffff; 
+
+
+}

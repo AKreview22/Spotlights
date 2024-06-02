@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap');
+@import '@/styles/_variables.scss';
+
+body {
+  background-color: var(--neutral-lighter-than-lightest);
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.appContainer {
+  padding-bottom: 70px;
+  
+  @media (min-width: 768px) {
+    padding-bottom: 0;
+    padding-top: 80px;
+  }
+}
+
